@@ -1,0 +1,24 @@
+{
+  "name": "web-monitor",
+  "version": "1.0.0",
+  "description": "前端日志监控",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "dev": "node_modules/.bin/webpack --watch"
+  },
+  "author": "maben",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.3"
+  },
+  "dependencies": {
+    "@liepin/fsk-sync": "^1.3.2",
+    "ajax-hook": "^1.8.0",
+    "jquery": "^3.3.1",
+    "lz-string": "^1.4.4"
+  }
+}
